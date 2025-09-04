@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lanchonete</title>
+</head>
+<body>
+    <h1>Faça seu pedido</h1>
+    <form>
+        <label>Nome:</label>
+        <input type="text" name="Nome" placeholder="Digite seu nome completo" required>
+        <br><br>
+         <label>Telefone:</label>
+        <input type="Telefone" name="Telefone" placeholder="Digite seu telefone" required>
+        <br><br>
+       <p>Escolha seu lanche:</p>
+        <input type="checkbox" name="lanche">X-Salada   
+        <input type="checkbox" name="lanche">X-Bacon  
+        <input type="checkbox" name="lanche">X-Frango
+        <br><br>
+        <p>Adicionais:</p> 
+        <input type="checkbox" name="check">Batata Frita
+        <input type="checkbox" name="check">Nuggets
+        <input type="checkbox" name="check">Onion Rings
+        <br><br>
+        <p>Bebidas:</p>
+        <select name="Bebidas">
+            <option value="Refrigerante" >Refrigerante </option>
+            <option value="Suco">Suco</option>
+            <option value="Água">Água</option>
+            <option value="Milkshake">Milkshake</option>
+            <br><br>
+        </select>
+        <p>Observações:</p>
+        <textarea name="mensagem" cols="30" rows="10" placeholder="Campo de texto grande para comentários (ex.: “sem cebola”, “bem passado”)."></textarea>
+        <br><br>
+
+        <button type="submit">Enviar</button>
+        <br><br>
+    </form>
+</body>
+</html>
