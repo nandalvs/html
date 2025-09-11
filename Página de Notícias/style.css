@@ -1,0 +1,37 @@
+/* Configurações gerais */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Estilo do título principal */
+h1 {
+    text-align: center;
+    color: blue;
+    margin-bottom: 30px;
+}
+
+/* Estilo das categorias */
+h2 {
+    color: #222;
+    margin-top: 20px;
+}
+
+/* Estilo das imagens */
+img {
+    width: 300px;
+    height: 180px;
+    object-fit: cover;
+    display: block;
+    margin: 10px 0;
+    border-radius: 8px;
+}
+
+/* Estilo dos parágrafos */
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 25px;
+}
