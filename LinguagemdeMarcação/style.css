@@ -1,0 +1,74 @@
+/* Geral */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: rgb(241, 191, 199); /* fundo suave */
+    color: #333;
+}
+
+/* Título principal */
+h1 {
+    text-align: center;
+    color: palevioletred; /* cor do título principal */
+    margin-bottom: 40px;
+    font-size: 2rem;
+}
+
+/* Cards */
+.card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Títulos das seções (centralizados agora) */
+h2 {
+    color: pink; /* cor já definida */
+    margin-bottom: 10px;
+    text-align: center; /* centraliza o título */
+}
+
+/* Subtítulos */
+h3, h4 {
+    color: palevioletred;
+    margin-top: 15px;
+}
+
+/* Imagens */
+img {
+    width: 180px;
+    height: auto;
+    border-radius: 8px;
+    display: block;
+    margin: 15px auto;
+}
+
+/* Parágrafos */
+p {
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+/* Parágrafo em destaque (filme) */
+.destaque {
+    background: pink; /* cor de destaque */
+    padding: 8px;
+    border-radius: 6px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+/* Listas */
+ul {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+li {
+    margin: 5px 0;
+}
