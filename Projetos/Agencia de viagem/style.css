@@ -17,11 +17,67 @@ header {
 }
 
 /*MAIN*/
-.aviao {
+.aviao { /*Section*/
     background-image: url(imgs/SITES/aviao.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
     height: 750px;
+
+    /*Configuração do texto no centro*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aviao h2 {
+    color: white;
+    font-size: 90px;
+    width: 950px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.pacote img{
+    width: 400px;
+    height: 600px;
+    border-radius: 20px;
+}
+
+.pacote {
+    border: 3px solid black;
+    /*Expessura da borda, tipo da borda, cor da borda*/
+    border-radius: 20px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.pacote p {
+    font-size: 32px;
+}
+
+.pacote span {
+    font-size: 20px;
+}
+
+.titulo{
+    font-size: 90px;
+    color:#1d0f6e;
+    text-align: center;
+    margin: 60px 0 ;
+    
 }
 /*FOOTER*/
+footer {
+    background-color: #1D0F6E; 
+   color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 300px;
+   font-size: 40px;
+}
