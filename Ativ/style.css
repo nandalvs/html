@@ -80,8 +80,12 @@ h2 {
 }
 
 /* Exercício 7*/
-#ex7 {
+#ex7{
     flex-wrap: wrap;
+}
+
+#ex7 .c1{
+    width: 1000px;
 }
 
 /* Exercício 8*/
