@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #222;
+    line-height: 1.6;
+    background-color: #fffaf0;
+}
+
+header {
+    background-color: #c70039; /* vermelho forte */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 2rem;
+}
+
+.introducao {
+    padding: 20px;
+    text-align: center;
+    background-color: #fff5f5; /* tom suave */
+    border-bottom: 3px solid #c70039;
+}
+
+.turismo {
+    padding: 20px;
+    text-align: center;
+}
+
+.turismo h2 {
+    color: #c70039;
+    margin-bottom: 20px;
+}
+
+.lugar {
+    margin-bottom: 30px;
+}
+
+.lugar img {
+    width: 60%;
+    max-width: 400px;
+    border: 3px solid #c70039;
+    border-radius: 10px;
+}
+
+.lugar h3 {
+    margin-top: 10px;
+    color: #333;
+    font-size: 1.3rem;
+}
+
+footer {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
