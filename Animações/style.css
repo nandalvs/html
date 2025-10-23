@@ -1,0 +1,157 @@
+body {
+  font-family: 'Poppins', Arial, sans-serif;
+  background: linear-gradient(to bottom right, #f6d6ff, #d9e8ff);
+  color: #333;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+header {
+  background-color: #a774f7;
+  color: white;
+  padding: 20px 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+header h1 {
+  margin: 0;
+  font-size: 26px;
+}
+section {
+  background-color: white;
+  width: 80%;
+  max-width: 500px;
+  margin: 25px auto;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+section:hover {
+  transform: scale(1.02);
+}
+h2 {
+  font-size: 18px;
+  color: #5a4b81;
+  margin-bottom: 15px;
+}
+.quadrado-movendo {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  margin: 20px auto;
+  border-radius: 10px;
+  animation: mover 3s infinite alternate ease-in-out;
+}
+@keyframes mover {
+  0% { transform: translateX(0); background-color: #ff5252; }
+  50% { transform: translateX(150px); background-color: #ffb347; }
+  100% { transform: translateX(0); background-color: #ffe26f; }
+}
+.quadrado-cor {
+  width: 100px;
+  height: 100px;
+  margin: 20px auto;
+  border-radius: 10px;
+  animation: mudaCor 6s infinite;
+}
+@keyframes mudaCor {
+  0% { background-color: red; }
+  33% { background-color: green; }
+  66% { background-color: blue; }
+  100% { background-color: red; }
+}
+.botao-animado {
+  background-color: #6c5ce7;
+  color: white;
+  padding: 10px 25px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  animation: animarBotao 5s infinite alternate;
+  transition: transform 0.3s;
+}
+.botao-animado:hover {
+  transform: scale(1.1);
+}
+@keyframes animarBotao {
+  0% { background-color: #6c5ce7; color: white; }
+  50% { background-color: #a55eea; color: yellow; }
+  100% { background-color: #ff7675; color: white; }
+}
+
+.texto-piscando {
+  font-size: 20px;
+  font-weight: bold;
+  animation: piscar 2s infinite;
+}
+
+@keyframes piscar {
+  0% { color: red; }
+  33% { color: blue; }
+  66% { color: green; }
+  100% { color: red; }
+}
+
+
+@keyframes nascer {
+  0% {
+    bottom: -80px;
+    opacity: 0.4;
+    filter: brightness(0.9);
+  }
+  50% {
+    bottom: 50px;
+    opacity: 1;
+    filter: brightness(1.1);
+  }
+  100% {
+    bottom: 100px;
+    opacity: 0.9;
+    filter: brightness(1);
+  }
+}
+
+.sol {
+    width: 250px;
+    height: 250px;
+    border: 8px solid lightblue;
+    display: flex;
+    justify-content: center;
+    background-color: lightblue;
+}
+.solImg {
+    width: 200px;
+    animation: solNascendo 5s infinite alternate;
+}
+@keyframes solNascendo {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(100px);
+    }
+}
+.coracao {
+  width: 100px;
+  animation: bater 1s infinite ease-in-out;
+  transform-origin: center;
+}
+
+@keyframes bater {
+  0% { transform: scale(1); }
+  25% { transform: scale(1.15); }
+  50% { transform: scale(1.3); }
+  75% { transform: scale(1.15); }
+  100% { transform: scale(1); }
+}
+.texto-flutuante {
+  font-size: 22px;
+  animation: flutuar 3s ease-in-out infinite alternate;
+  color: #6c5ce7;
+}
+
+@keyframes flutuar {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-20px); }
+}
