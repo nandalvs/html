@@ -1,0 +1,21 @@
+div {
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    margin: 20px;
+}
+.caixa1 {
+    background: linear-gradient(150deg, pink, red, orange);
+    /*Por padrão de cima para baixo*/
+    /*to rigth, to left, to bottom, to top*/
+    /*to rigth = 90deg - to bottom =180deg*/
+}
+.caixa2 {
+    background: radial-gradient(circle, pink, red, orange);
+    /*circle, ellipse*/
+    /*center, at bottom rigth, top left, top rigth, bottom left*/
+}
+.caixa3 {
+    background: conic-gradient(from 180deg, pink, red, orange);
+    /*Usar valores com o deg, faz girar as cores*/
+}
