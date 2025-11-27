@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: #0b0b0b;
+  color: #ffffff;
+}
+
+/* Header igual ao cadastro/catalogo */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #c1006f;
+  padding: 12px 40px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.logo img {
+  width: 120px;
+  height: auto;
+}
+
+.barra-pesquisa {
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 25px;
+  padding: 4px 12px;
+  width: 400px;
+  height: 40px;
+}
+
+.barra-pesquisa input {
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 6px 36px 6px 10px;
+  font-size: 0.95em;
+  border-radius: 25px;
+  color: #333;
+}
+
+.barra-pesquisa .lupa-icon {
+  position: absolute;
+  right: 10px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 22px;
+  font-weight: 600;
+  font-size: 1.05em;
+  transition: color 0.3s, text-shadow 0.3s;
+  display: flex;
+  align-items: center;
+}
+
+nav a:hover {
+  color: #ffb3d9;
+  text-shadow: 0 0 8px rgba(255, 179, 217, 0.6);
+}
+
+.carrinho-icon {
+  width: 28px;
+  margin-left: 10px;
+}
+
+.usuario-icon {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  margin-left: 12px;
+  object-fit: cover;
+  border: 2px solid #fff;
+}
+
+/* Espaço do main considerando header fixo */
+main {
+  padding-top: 120px;
+}
+
+/* Cards */
+.container-suporte {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background-color: #151515;
+  border-radius: 18px;
+  padding: 20px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.05);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(193, 0, 111, 0.25);
+}
+
+.card h2 {
+  font-family: "Young Serif", serif;
+  font-size: 24px;
+  color: #c1006f;
+  margin-bottom: 15px;
+}
+
+.card p {
+  font-size: 15px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.card ul {
+  list-style: none;
+}
+
+.card ul li {
+  margin-bottom: 8px;
+}
+
+a {
+  color: #c1006f;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  background-color: #c1006f;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 60px;
+}

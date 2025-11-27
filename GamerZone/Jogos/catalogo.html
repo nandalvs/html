@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Catálogo - GamerZone</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Young+Serif&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="catalogo.css">
+</head>
+<body>
+  <header>
+  <div class="logo">
+    <img src="img/icon_gato.png" alt="GamerZone Logo">
+  </div>
+
+  <div class="barra-pesquisa">
+    <input type="text" placeholder="Buscar jogos...">
+    <img src="img/lupa_icon.png" alt="Buscar" class="lupa-icon">
+  </div>
+
+  <nav>
+    <a href="index.html">Início</a>
+    <a href="catalogo.html">Catálogo</a>
+    <a href="suporte.html">Suporte</a>
+
+    <a href="carrinho.html" class="carrinho-link">
+      <img src="img/carrinho_icon1.png" alt="Carrinho" class="carrinho-icon">
+    </a>
+
+    <a href="perfil.html" class="usuario-link">
+      <img src="img/perfil.png" alt="Usuário" class="usuario-icon">
+    </a>
+  </nav>
+</header>
+
+
+  <main>
+    <section class="filtro">
+      <label for="genero">Filtrar por gênero:</label>
+      <select id="genero">
+        <option>Todos</option>
+        <option>Ação</option>
+        <option>Luta</option>
+        <option>Terror</option>
+        <option>Cartas</option>
+      </select>
+    </section>
+
+    <section class="jogos-grid">
+      <div class="jogo-card">
+        <a class="card-link" href="Jogos/Ghost-of-Tsushima.html">
+          <img src="img/Ghost of tsushima.jpg" alt="Ghost of Tsushima">
+          <h3>Ghost of Tsushima</h3>
+          <p class="preco">R$ 249,90</p>
+        </a>
+        <a class="cart-btn" href="carrinho.html">
+          <img src="img/Carrinho.png" alt="Carrinho">
+        </a>
+      </div>
+
+      <div class="jogo-card">
+        <a class="card-link" href="Jogos/Injustice.html">
+          <img src="img/Injustice.jpg" alt="Injustice">
+          <h3>Injustice</h3>
+          <p class="preco">R$ 149,90</p>
+        </a>
+        <a class="cart-btn" href="carrinho.html">
+          <img src="img/Carrinho.png" alt="Carrinho">
+        </a>
+      </div>
+
+      <div class="jogo-card">
+        <a class="card-link" href="Jogos/Inscryption.html">
+          <img src="img/inscryption.jpg" alt="Inscryption">
+          <h3>Inscryption</h3>
+          <p class="preco">R$ 89,90</p>
+        </a>
+        <a class="cart-btn" href="carrinho.html">
+          <img src="img/Carrinho.png" alt="Carrinho">
+        </a>
+      </div>
+
+      <div class="jogo-card">
+        <a class="card-link" href="Jogos/Balatro.html">
+          <img src="img/Balatro.jpg" alt="Balatro">
+          <h3>Balatro</h3>
+          <p class="preco">R$ 49,90</p>
+        </a>
+        <a class="cart-btn" href="carrinho.html">
+          <img src="img/Carrinho.png" alt="Carrinho">
+        </a>
+      </div>
+
+      <div class="jogo-card">
+        <a class="card-link" href="Jogos/lego-batman-3.html">
+          <img src="img/Lego batman 3.jpg" alt="Lego Batman 3">
+          <h3>Lego Batman 3</h3>
+          <p class="preco">R$ 79,90</p>
+        </a>
+        <a class="cart-btn" href="carrinho.html">
+          <img src="img/Carrinho.png" alt="Carrinho">
+        </a>
+      </div>
+
+      <div class="jogo-card">
+        <a class="card-link" href="Jogos/god-of-war.html">
+          <img src="img/GOD OF WAR RAGNARÖK.jpg" alt="God of War Ragnarök">
+          <h3>God of War Ragnarök</h3>
+          <p class="preco">R$ 299,90</p>
+        </a>
+        <a class="cart-btn" href="carrinho.html">
+          <img src="img/Carrinho.png" alt="Carrinho">
+        </a>
+      </div>
+
+      <div class="jogo-card">
+        <a class="card-link" href="Jogos/red-dead.html">
+          <img src="img/Red Dead Redemption 2.jpg" alt="Red Dead Redemption 2">
+          <h3>Red Dead Redemption 2</h3>
+          <p class="preco-antigo">R$ 199,90</p>
+          <p class="preco">R$ 129,90</p>
+        </a>
+        <a class="cart-btn" href="carrinho.html">
+          <img src="img/Carrinho.png" alt="Carrinho">
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 GamerZone | Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
